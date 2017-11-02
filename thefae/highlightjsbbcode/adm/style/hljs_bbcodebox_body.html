@@ -1,0 +1,31 @@
+<!-- INCLUDE overall_header.html -->
+
+<h1>{L_SETTINGS}</h1>
+
+<form id="acp_board" method="post" action="{U_ACTION}">
+    <fieldset>
+        <legend>{L_ACP_HLJS_BBCODEBOX_SETTINGS_GROUP_GENERAL}</legend>
+        <dl>
+            <dt><label for="thefae_hljs_bbcodebox_style">{L_ACP_HLJS_BBCODEBOX_OPT_STYLE}</label><br>
+            <span>{L_ACP_HLJS_BBCODEBOX_OPT_STYLE_DESC}</span></dt>
+            <dd><!-- Current Hash: {THEFAE_HLJS_BBCODEBOX_STYLE_HASH} -->
+                <select name="thefae_hljs_bbcodebox_style">
+                    <!-- BEGIN styleopts -->
+                    <option value="{styleopts.VAL}"{styleopts.SELECTED}>{styleopts.VAL}</option>
+                    <!-- END styleopts -->
+                </select>
+            </dd>
+        </dl>
+    </fieldset>
+    
+    <fieldset>
+       <p class="submit-buttons">
+           <input class="button1" type="submit" id="submit" name="submit" value="{L_SUBMIT}" />&nbsp;
+           <input class="button2" type="reset" id="reset" name="reset" value="{L_RESET}" />
+       </p>
+
+       {S_FORM_TOKEN}
+    </fieldset>
+</form>
+
+<!-- INCLUDE overall_footer.html -->

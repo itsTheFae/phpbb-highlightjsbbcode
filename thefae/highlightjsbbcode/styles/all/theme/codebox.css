@@ -1,0 +1,28 @@
+/** 
+ CodeBox CSS (c) Thefae
+**/
+
+.codehlb {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 4px;
+    margin-bottom: 18px;
+}
+
+.codehlb .heading {
+    padding: 3px;
+    padding-left: 6px;
+    border-bottom: 1px solid #ddd;
+}
+
+.codehlb .heading a {
+    text-decoration: none;
+}
+
+.codehlb .c_type {
+    position: absolute;
+    right: 12px;
+    color: #afafaf;
+    font-style: italic;
+    text-transform: capitalize;
+}

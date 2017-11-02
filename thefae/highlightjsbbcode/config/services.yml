@@ -1,0 +1,10 @@
+services:
+    thefae.highlightjsbbcode.listener:
+        class: thefae\highlightjsbbcode\event\main_listener
+        arguments:
+            - '@config'
+            - '@controller.helper'
+            - '@template'
+            - '@user'
+        tags:
+          - { name: event.listener }
