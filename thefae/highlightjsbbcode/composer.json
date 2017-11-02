@@ -3,7 +3,7 @@
     "type": "phpbb-extension",
     "description": "BBCode `[codebox]` with syntax highlighting, Extension for phpBB 3.2.",
     "homepage": "https://github.com/itsTheFae/phpbb-highlightjsbbcode",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "time": "2017-10-31",
     "keywords": ["phpbb", "extension", "thefae", "highlightjsbbcode", "code", "bbcode", "hightlightjs", "highlight"],
     "license": "GPL-2.0",

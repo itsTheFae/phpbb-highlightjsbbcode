@@ -6,7 +6,7 @@ Language availability is currently just English, but others may be added if tran
 
 **Warning!** *This extension will automatically install these bbcodes, or update existing bbcodes with the same name as those used in this extension!*
 
-**Current Version:** _0.2.0_  
+**Current Version:** _0.2.1_  
 
 ## How To
 

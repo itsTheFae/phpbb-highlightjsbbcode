@@ -84,9 +84,8 @@ class v020_install extends container_aware_migration
                 'bbcode_helpline'	=> 'Codebox with language auto-detection.',
                 'bbcode_match'		=> '[codebox]{TEXT}[/codebox]',
                 'bbcode_tpl'		=> '<div class="codehlb">'."\n".
-                                       '  <div class="heading">Code: <a class="codehlb_toggle">[show]</a>'.
-                                       ' | <a class="codehlb_select" href="#" onclick="selectCode(this); return false;">[select all]</a> '.
-                                       '<span class="c_type">lua</span></div>'."\n". 
+                                       '  <div class="heading">{L_HLJS_BBCODEBOX_HEADING}<a class="codehlb_toggle">{L_HLJS_BBCODEBOX_BUTTON_SHOW}</a>'.
+                                       '{L_HLJS_BBCODEBOX_HEAD_SEPARATOR}<a class="codehlb_select" href="#" onclick="selectCode(this); return false;">{L_HLJS_BBCODEBOX_BUTTON_SELECT}</a></div>'."\n". 
                                        '  <pre style="display:none;"><code>{TEXT}</code></pre>'."\n".
                                        '</div>',
             ),
@@ -94,9 +93,8 @@ class v020_install extends container_aware_migration
                 'bbcode_helpline'	=> 'Codebox with specific lanaguage.',
                 'bbcode_match'		=> '[codebox={SIMPLETEXT1}]{TEXT}[/codebox]',
                 'bbcode_tpl'		=> '<div class="codehlb">'."\n".
-                                       '  <div class="heading">Code: <a class="codehlb_toggle">[show]</a>'.
-                                       ' | <a class="codehlb_select" href="#" onclick="selectCode(this); return false;">[select all]</a> '.
-                                       '<span class="c_type">lua</span></div>'."\n". 
+                                       '  <div class="heading">{L_HLJS_BBCODEBOX_HEADING}<a class="codehlb_toggle">{L_HLJS_BBCODEBOX_BUTTON_SHOW}</a>'.
+                                       '{L_HLJS_BBCODEBOX_HEAD_SEPARATOR}<a class="codehlb_select" href="#" onclick="selectCode(this); return false;">{L_HLJS_BBCODEBOX_BUTTON_SELECT}</a></div>'."\n". 
                                        '  <pre style="display:none;"><code class="{SIMPLETEXT1}">{TEXT}</code></pre>'."\n".
                                        '</div>',
             ),

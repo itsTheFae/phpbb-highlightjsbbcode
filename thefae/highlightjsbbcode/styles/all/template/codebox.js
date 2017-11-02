@@ -6,10 +6,10 @@ $( document ).ready(function() {
         var cbox = $(this).parent().parent();
         var codeArea = cbox.children("pre");
         codeArea.toggle();
-        if (ltext.toLowerCase() == '[show]') {
-            $(this).text('[hide]');
+        if( ltext.toLowerCase() == hljsLangBtnShow.toLowerCase() ) {
+            $(this).text( hljsLangBtnHide );
         } else {
-            $(this).text('[show]');
+            $(this).text( hljsLangBtnShow );
         }
     });
 });

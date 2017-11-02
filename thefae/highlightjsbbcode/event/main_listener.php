@@ -29,7 +29,6 @@ class main_listener implements EventSubscriberInterface
         return array(
             'core.user_setup'   => 'load_language_on_setup',
             'core.page_header'  => 'add_page_header_data'
-            //'core.page_footer'  => 'add_page_footer_data'
         );
     }
 
@@ -54,14 +53,6 @@ class main_listener implements EventSubscriberInterface
         
         $vars = array(
             'HLJSBBC_STYLE_NAME'     => $style_name,
-        );
-        
-        $this->template->assign_vars( $vars );
-    }
-    
-    public function add_page_footer_data($event)
-    {
-        $vars = array(
         );
         
         $this->template->assign_vars( $vars );
